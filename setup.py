@@ -1,18 +1,12 @@
 import setuptools
 
 setuptools.setup(
-    name='tests
+    name='temp_folder',
     version='0.0.3',
     author='Harsh',
     author_email='harsh.harsh@xperi.com',
     description='Testing installation of Package',
-    long_description=long_description,
-    long_description_content_type="text/markdown",
-    url='https://github.com/mike-huls/toolbox',
-    project_urls = {
-        "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
-    },
-    license='MIT',
-    packages=['toolbox'],
+    url='https://github.com/CodePuppet32/test_package',
+    packages=['temp_folder'],
     install_requires=['requests'],
 )
